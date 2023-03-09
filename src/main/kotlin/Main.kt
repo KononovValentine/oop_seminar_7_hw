@@ -67,6 +67,9 @@ fun main() {
             "q" -> {
                 break
             }
+            else -> {
+                println("Некорректный ввод")
+            }
         }
         println()
     }
